@@ -242,7 +242,7 @@ option(BUILD_TESTING "Build the testing tree." OFF)
 option(BUILD_IDLC_XTESTS "Build the idlc compile tests" OFF)
 
 # Disable building examples by default because it is not strictly required.
-option(BUILD_EXAMPLES "Build examples." OFF)
+option(BUILD_EXAMPLES "Build examples." ON)
 
 option(ENABLE_LTO "Enable link time optimization." ON)
 
